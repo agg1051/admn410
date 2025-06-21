@@ -1,0 +1,66 @@
+.main-layout {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: flex-start;
+  padding: 20px;
+}
+
+body {
+	background-color: #4F7942;
+	margin: 0;
+	padding: 0;
+	font-family: Verdana, sans-serif;
+}
+h1, h2, h3 {
+	font-family: "Trebuchet MS", sans-serif;
+}
+
+header h1 {
+  background-color: oldlace;
+  color: #4F7942;
+  padding: 20px;
+  border-radius: 12px;
+  box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+  display: inline-block;
+}
+
+
+nav {
+  width: 20%;
+  background-color: oldlace;
+  padding: 15px;
+}
+
+header {
+	text-align: center;
+}
+
+section p {
+  text-align: left;
+}
+
+section {
+  width: 55%;
+  background-color: oldlace;
+  padding: 15px;
+  margin: 0 10px;
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 20px;
+}
+
+a:visited {
+  color: #4F7942;
+}
+
+.product-photo {
+  width: 120px;
+  height: 120px;
+  object-fit: cover;
+  margin-bottom: 10px;
+}
